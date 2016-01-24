@@ -1,4 +1,7 @@
 # Diaslab
 A web enabled modular weather station
 
-![Diaslogo](https://raw.githubusercontent.com/zpiman/Diaslab/master/diaslab.png)
+<p align="center">
+  <img height="257" src="https://raw.githubusercontent.com/zpiman/Diaslab/master/diaslab.png">
+</p>
+
