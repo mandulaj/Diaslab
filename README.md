@@ -10,7 +10,16 @@ A web enabled modular weather station
 * Humidity
 * Luminosity UV/IR/Visible
 * Pressure
-* Air quality
-* Wind speed and direction
+* Gas
+  * CO - MQ-7
+  * CO2
+  * Air quality - MQ-135
+  * Pollution - MQ-3
+* Wind
+  * Speed
+  * Direction
 * Precipitation
+* Rain drops
+* Soil moisture
+* Optical Dust sensor
 * Geiger counter
