@@ -1,0 +1,28 @@
+{
+  "name": "diaslab",
+  "version": "1.0.0",
+  "description": "A web enabled modular weather station",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zpiman/Diaslab.git"
+  },
+  "keywords": [
+    "weather",
+    "server",
+    "sensors",
+    "rain"
+  ],
+  "author": "Jakub Mandula <jakub@mandula.cz>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zpiman/Diaslab/issues"
+  },
+  "homepage": "https://github.com/zpiman/Diaslab",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
