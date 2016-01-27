@@ -37,3 +37,6 @@ This project aims at creating a modular, web enabled weather station that would 
 * Optical dust sensor
 * Geiger counter
 * Interior Temperature + Humidity sensor
+* Good microphone
+* pH meter
+* spectrum analyzer
