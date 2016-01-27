@@ -11,6 +11,7 @@ This project aims at creating a modular, web enabled weather station that would 
 * **Temperature** `DHT22` - inside, outside
 * Humidity `DHT22` - inside, outside
 * Luminosity `SI1145, TSL2561` UV/IR/Visible
+  * Spectrum analyzer??
 * Pressure `BMP180`
 * Gas - inside, outside
   * CO `MQ-7`
@@ -21,10 +22,13 @@ This project aims at creating a modular, web enabled weather station that would 
   * Speed
   * Direction
 * Precipitation - tiping cone
+  * Water pH sensor
+  * Other chemical analysis??
 * Rain drops 
 * Soil moisture
 * Optical Dust sensor
 * Geiger counter???
+* Noise sensor (calibrated microphone) 
 
 ### To get
 * Anemometer - ultrasonic/mechanical
