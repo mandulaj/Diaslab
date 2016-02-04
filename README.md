@@ -8,11 +8,11 @@ A web enabled modular weather station
 This project aims at creating a modular, web enabled weather station that would continuously measure data using a number of sensors, save them to a database and display the processed results using a web interface. This interface would be accessable form the internet from anywhere. The weather station would also periodically upload the data to a crowd sourced weather project in order to help weather predictions.
 
 ### Features to be implemented
-* **Temperature** `DHT22` - inside, outside
-* Humidity `DHT22` - inside, outside
-* Luminosity `SI1145, TSL2561` UV/IR/Visible
+* **Temperature** `DHT22`✔ - inside, outside
+* Humidity `DHT22` ✔ - inside, outside
+* Luminosity `SI1145, TSL2561` ✔ UV/IR/Visible
   * Spectrum analyzer??
-* Pressure `BMP180`
+* Pressure `BMP180` ✔
 * Gas - inside, outside
   * CO `MQ-7`
   * CO2
@@ -24,8 +24,8 @@ This project aims at creating a modular, web enabled weather station that would 
 * Precipitation - tiping cone
   * Water pH sensor
   * Other chemical analysis??
-* Rain drops 
-* Soil moisture
+* Rain drops  ✔
+* Soil moisture ✔
 * Optical Dust sensor
 * Geiger counter???
 * Noise sensor (calibrated microphone) 
