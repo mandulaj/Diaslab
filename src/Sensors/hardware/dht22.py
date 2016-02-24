@@ -1,13 +1,18 @@
-import .. _core as core
+import _core as core
 import Adafruit_DHT
 import time
 
 
-waitTime = 2
+DEFAULT_OPTIONS = {
+  "maxupdate":2
+}
+
+
 _instantiated = False
 
-class Sensor(core.HardwareSensor):
-    def __init__(self, pin):
+class DHT22(core.HardwareSensor):
+    def __init__(self, pin, options={}):
+	self.options = core.mergeOptions(options, DEFAULT_OPTIONS)
         self.sensor = Adafruit_DHT.DHT22
         self.pin = pin
         self.value = {"humidity": 0, "temperature": 0}
@@ -16,7 +21,7 @@ class Sensor(core.HardwareSensor):
         
     def update(self):
         timeNow = time.time()
-        if timeNow >= (self.lastUpdate + waitTime):
+        if timeNow >= (self.lastUpdate + self.options["maxupdate"]):
             self.lastUpdate = timeNow
         else:
             return 1
@@ -33,6 +38,6 @@ class Sensor(core.HardwareSensor):
     
     
     if __name__ == "__main__":
-        dht22 = Sensor(4)
+        dht22 = DHT22(4)
         print dht22.update()
         print dht22.read()
