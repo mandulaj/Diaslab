@@ -15,7 +15,7 @@ This project aims at creating a modular, web enabled weather station that would 
 * Pressure `BMP180` ✔
 * Gas - inside, outside
   * CO `MQ-7`✔
-  * CO2
+  * CO2 - 60$ (need alternative)
   * Air quality `MQ-135`✔
   * Pollution `MQ-3`
 * Wind - ultrasonic???
