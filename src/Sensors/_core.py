@@ -47,5 +47,12 @@ class GeneralSensor(object):
     def setOptionValue(self, option, value):
         """Sets the value for the option"""
         self.options[option] = value
-        
+
+class HardwareSensor(object):
+    """Lowlevel class used to interface with a hardware sensor"""
+    
+    def __init__(self, options={}):
+        self.active = True
+        self.options = mergeOptions(DEFAULT_OPTIONS, options)
+    
         
